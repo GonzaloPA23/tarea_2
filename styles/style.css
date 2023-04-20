@@ -2,6 +2,7 @@
     box-sizing: border-box;    
     margin: 0;
     padding: 0;
+    font-family:'Times New Roman', Times, serif;
 }
 
 main{
@@ -54,6 +55,7 @@ button{
     justify-content: center;
     text-align: center;
     width: 30%;
+    margin-left: 3%;
 }
 
 .container-small-box{
@@ -90,3 +92,10 @@ button{
     border-radius: 20px;
 }
 
+.container-navigation-login{
+    padding: 3%;
+}
+
+.container-navigation-login > img{
+    padding: 0 30%;
+}
