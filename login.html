@@ -21,6 +21,9 @@
     <meta name="copyrigth" content="Todos los derechos reservados - 2023" />
 
     <meta name="robots" content="index, follow" />
+
+    <script src="https://kit.fontawesome.com/c93ec55e29.js" crossorigin="anonymous"></script>
+
     <title>Login</title>
   </head>
   <body>
@@ -35,8 +38,41 @@
       </header>
 
       <!-- Interfaz completa de login -->
-      <div class="container">
+      <div class="container-all-login">
+        <!-- Titulo del login -->
+        <div class="title-main">
+            <h2>Bienvenido a Pequeño Limon</h2>
+        </div>
 
+        <!-- Formulario con Inputs usuario, password and button login -->
+        <div class="container-form">
+            <form>
+                <!-- USUARIO -->
+                <div class="container-user">
+                     <span class="logo-user">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="usuario" placeholder="Usuario" class="input-user"required>
+                    </span>   
+                </div>
+                <br>
+                <!-- Contraseña -->
+                <div class="container-password">
+                    <span class="logo-key">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="contrasena" placeholder="Contraseña" required>
+                    </span>       
+                </div>
+
+                <div class="container-btn">
+                    <button type="button" name="Ingresar" class="btn-login">LOGIN</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- parrafo extra -->
+        <div>
+            <p id="text-altern">Sin cuenta?, <a href="#">create una aquí</a></p>
+        </div>
       </div>
 
     </div>

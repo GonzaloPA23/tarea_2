@@ -99,3 +99,91 @@ button{
 .container-navigation-login > img{
     padding: 0 30%;
 }
+
+.container-all-login{
+    padding-top: 15%;
+    height: 93vh;
+    border: 1px solid black;
+}
+
+.title-main {
+    padding: 8%;
+}
+
+.title-main h2{
+    font-size: 3rem;
+    font-style:italic;
+    align-items: center;
+    text-align: center;
+}
+
+.container-form{
+    padding: 5%;
+/*     font-size: 20px; se crecen los logos del usuario y llaves
+ */
+
+}
+
+.container-user{
+    border-radius:10px;
+    text-align: center;    padding: 5%;
+    width: 100%;
+    min-height: 70px;
+    background-color: #D9D9D9;
+}
+
+
+.logo-user i{
+    padding: 4%;
+    background-color: rgb(141, 141, 222);
+    color: white;
+    border-radius: 6px;
+}
+
+.logo-user input{
+    margin:0px;
+    width: 60%;
+    height: 40px;
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.container-password{
+    border-radius:10px;
+    text-align: center;    padding: 5%;
+    width: 100%;
+    min-height: 70px;
+    background-color: #D9D9D9;
+}
+
+.logo-key i{
+    padding: 4%;
+    background-color: rgb(141, 141, 222);
+    color: white;
+    border-radius: 6px;
+}
+
+.logo-key input{
+    margin:0px;
+    width: 60%;
+    height: 40px;
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.container-btn{
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-login{
+    width: 30%;
+}
+
+#text-altern{
+    padding-top: 5%;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
