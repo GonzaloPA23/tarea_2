@@ -179,3 +179,30 @@ h2:last-child {
     position: absolute;
     bottom: 3rem;
 }
+
+            /* Checkout */
+.container-payment-complete{
+    height: 93vh;
+    border: 1px solid black;
+}
+
+.container-payment{
+    display: flex;
+    flex-wrap: wrap;
+    height: 68vh;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: center;
+}
+
+.container-payment section{
+    background-color:#D9D9D9;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 30vw;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    font-size: 1.9rem;
+}
