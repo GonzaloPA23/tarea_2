@@ -4,75 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Archivo para los estilos -->
     <link rel="stylesheet" href="styles/style.css" />
-
-    <!--name-->
-    <meta
-      name="description"
-      content="Este es una página web sobre un restaurante"
-    />
-
-    <meta name="keywords" content="Reservación, restaurante, comida" />
-
-    <meta name="author" content="Gonzalo PA" />
-
-    <meta name="copyrigth" content="Todos los derechos reservados - 2023" />
-
-    <meta name="robots" content="index, follow" />
-
     <script src="https://kit.fontawesome.com/c93ec55e29.js" crossorigin="anonymous"></script>
-
     <title>Login</title>
   </head>
   <body>
-    <div>
-      <!-- Desarrollo de la cabecera login-->
+    <div class="container--global">
+        <!-- Desarrollo de la cabecera -->
       <header>
-        <div class="container-navigation-login">
-          <button type="button">Back</button>
-          <img src="#" alt="Logo" />
-          <button type="button">cart</button>
-        </div>
+        <nav class="container--options--header">
+          <button>Back</button>
+          <a href="index.html">
+            <img src="images/Little Lemmon.svg" alt="Logo">
+          </a>
+          <div>
+            <button>
+                Cart
+            </button>
+          </div>
+        </nav>
       </header>
-
-      <!-- Interfaz completa de login -->
+      <!-- Interface login complete  -->
       <div class="container-all-login">
-        <!-- Titulo del login -->
-        <div class="title-main">
-            <h2>Bienvenido a Pequeño Limon</h2>
+        <!-- Title of the login -->
+        <div class="title-login">
+            <h2>Welcome to</h2>
+            <h2>Little Lemmon</h2>
         </div>
-
-        <!-- Formulario con Inputs usuario, password and button login -->
-        <div class="container-form">
+        <!-- Forms with inputs user, password and button login -->
+        <section class="frm-login">
             <form>
-                <!-- USUARIO -->
-                <div class="container-user">
-                     <span class="logo-user">
+                <!-- USER -->
+                <div class="box-items">
+                    <span>
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" name="usuario" placeholder="Usuario" class="input-user"required>
-                    </span>   
+                        <input type="text" name="User" placeholder="User" required>
+                    </span>
                 </div>
-                <br>
-                <!-- Contraseña -->
-                <div class="container-password">
-                    <span class="logo-key">
+                <br><br>
+                <!-- PASSWORD -->
+                <div class="box-items">
+                    <span>
                         <i class="fa-solid fa-key"></i>
-                        <input type="password" name="contrasena" placeholder="Contraseña" required>
+                        <input type="password" name="Password" placeholder="Password" required>
                     </span>       
                 </div>
-
-                <div class="container-btn">
+                <!-- BUTTON SUBMIT -->
+                <div class="container-btn-submit">
                     <button type="button" name="Ingresar" class="btn-login">LOGIN</button>
                 </div>
-            </form>
-        </div>
-
-        <!-- parrafo extra -->
-        <div>
-            <p id="text-altern">Sin cuenta?, <a href="#">create una aquí</a></p>
-        </div>
+            </form> 
+        </section> 
+        <!-- Extra paragraph -->
+        <p id="text-altern">Not an account yet? <a href="#">Create one here</a></p>
       </div>
     </div>
   </body>
